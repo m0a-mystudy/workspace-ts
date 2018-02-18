@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es2015",
+    "lib": [],
+    "baseUrl": ".",
+    /* Strict Type-Checking Options */
+    "strict": true
+  }
+  
+}

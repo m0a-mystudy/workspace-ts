@@ -1,9 +1,11 @@
 import * as React from 'react';
+import {Component} from 'react';
+const  logo = require('./logo.svg') as string;
 import './App.css';
+import test from "core";
+alert(test);
 
-const logo = require('./logo.svg');
-
-class App extends React.Component {
+class App extends Component {
   render() {
     return (
       <div className="App">
@@ -12,7 +14,7 @@ class App extends React.Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
+          To get started, edit <code>src/App.js</code> and save to reload.
         </p>
       </div>
     );
